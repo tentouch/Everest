@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 420}}";
+			sepNavSelRange = "{388, 68}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1126, 2394}}";
+			sepNavSelRange = "{1859, 64}";
+			sepNavVisRange = "{1541, 504}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CoolCam */ = {
+		activeExec = 0;
+		executables = (
+			2A23E2A41051150500E5FA48 /* CoolCam */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 2A23E2A41051150500E5FA48 /* CoolCam */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CoolCam */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CoolCam */,
+		);
+		breakpoints = (
+			2A23E3731051269400E5FA48 /* CoolCamAppDelegate.m:107 */,
+		);
+		codeSenseManager = 2A23E2AB1051150B00E5FA48 /* Code sense */;
+		executables = (
+			2A23E2A41051150500E5FA48 /* CoolCam */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					560,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					672,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					686,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					612,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					648,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					632,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 274007920;
+			PBXWorkspaceStateSaveDate = 274007920;
+		};
+		perUserProjectItems = {
+			2A23E2FF10511D4700E5FA48 /* PBXTextBookmark */ = 2A23E2FF10511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30110511D4700E5FA48 /* PBXBookmark */ = 2A23E30110511D4700E5FA48 /* PBXBookmark */;
+			2A23E30310511D4700E5FA48 /* PlistBookmark */ = 2A23E30310511D4700E5FA48 /* PlistBookmark */;
+			2A23E30410511D4700E5FA48 /* PBXTextBookmark */ = 2A23E30410511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30510511D4700E5FA48 /* PBXTextBookmark */ = 2A23E30510511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30810511D4700E5FA48 /* PBXTextBookmark */ = 2A23E30810511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30D10511D4700E5FA48 /* PBXBookmark */ = 2A23E30D10511D4700E5FA48 /* PBXBookmark */;
+			2A23E4031053149B00E5FA48 /* PBXTextBookmark */ = 2A23E4031053149B00E5FA48 /* PBXTextBookmark */;
+			2A23E40C1053170300E5FA48 /* PBXTextBookmark */ = 2A23E40C1053170300E5FA48 /* PBXTextBookmark */;
+			2A23E40F1053170300E5FA48 /* PlistBookmark */ = 2A23E40F1053170300E5FA48 /* PlistBookmark */;
+			2A23E4451055077E00E5FA48 /* PlistBookmark */ = 2A23E4451055077E00E5FA48 /* PlistBookmark */;
+		};
+		sourceControlManager = 2A23E2AA1051150B00E5FA48 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {468, 327}}";
+			sepNavSelRange = "{318, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	2A23E2A41051150500E5FA48 /* CoolCam */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CoolCam;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	2A23E2AA1051150B00E5FA48 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	2A23E2AB1051150B00E5FA48 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2A23E2FF10511D4700E5FA48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	2A23E30110511D4700E5FA48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2A23E2F810511CF400E5FA48 /* icon.png */;
+	};
+	2A23E30310511D4700E5FA48 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoolCam-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/krassi/Camera/03/CoolCam/CoolCam-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2A23E30410511D4700E5FA48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */;
+		name = "CoolCamAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 0;
+	};
+	2A23E30510511D4700E5FA48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
+		name = "CoolCamAppDelegate.m: 61";
+		rLen = 0;
+		rLoc = 4971;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	2A23E30810511D4700E5FA48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	2A23E30D10511D4700E5FA48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2A23E2F810511CF400E5FA48 /* icon.png */;
+	};
+	2A23E3731051269400E5FA48 /* CoolCamAppDelegate.m:107 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
+		functionName = "ManipulateImagePixelData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 107;
+		location = CoolCam;
+		modificationTime = 273760064.673871;
+		state = 1;
+	};
+	2A23E4031053149B00E5FA48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */;
+		name = "CoolCamAppDelegate.h: 18";
+		rLen = 68;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 0;
+	};
+	2A23E40C1053170300E5FA48 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
+		name = "CoolCamAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	2A23E40F1053170300E5FA48 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoolCam-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleShortVersionString,
+		);
+		name = "/krassi/Camera/05/CoolCam/CoolCam-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2A23E4451055077E00E5FA48 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoolCam-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleShortVersionString,
+		);
+		name = "/krassi/Camera/05/Everest/CoolCam-Info.plist";
+		rLen = 3;
+		rLoc = 0;
+	};
+}
