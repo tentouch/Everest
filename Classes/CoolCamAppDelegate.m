@@ -82,13 +82,15 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 												  8,           
 												  width,            
 												  NULL,            
-												  kCGImageAlphaOnly ); 
+												  kCGImageAlphaOnly); 
 	
-	CGContextDrawImage( context, CGRectMake(0, 0, width, height), image.CGImage );
+	//CGContextDrawImage( context, CGRectMake(0, 0, width, height), image.CGImage );
 	
 	
 	
-	imageView.image = image;
+	CGImageRef newImageRef = CGBitmapContextCreateImage(context);
+	
+	imageView.image = [UIImage imageWithCGImage: newImageRef ];
 	
 	//[imgproc release];
 	

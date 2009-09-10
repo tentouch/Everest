@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>2AC561C210584CE6004AE431</string>
+						<string>2A844BDC1058ECF400FAEF0E</string>
 						<key>history</key>
 						<array>
-							<string>2AC561C110584CE6004AE431</string>
+							<string>2AC561C210584CE6004AE431</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -367,7 +367,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2AC561BD10584CE6004AE431</string>
+										<string>2A844BD81058ECF400FAEF0E</string>
 										<key>history</key>
 										<array>
 											<string>2ADF3E0B105645E0002C30F1</string>
@@ -382,7 +382,7 @@
 											<string>2AC561B210584CE6004AE431</string>
 											<string>2AC561B310584CE6004AE431</string>
 											<string>2AC561B510584CE6004AE431</string>
-											<string>2AC561B610584CE6004AE431</string>
+											<string>2AC561BD10584CE6004AE431</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -397,10 +397,7 @@
 											<string>2A4E817D1057B53D00DA6150</string>
 											<string>2A4E81AE1057BEC500DA6150</string>
 											<string>2A4E81B41057BEC500DA6150</string>
-											<string>2AC561B810584CE6004AE431</string>
-											<string>2AC561B910584CE6004AE431</string>
 											<string>2AC561BA10584CE6004AE431</string>
-											<string>2AC561BC10584CE6004AE431</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -460,9 +457,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2AC561BF10584CE6004AE431</string>
+				<string>2A844BDA1058ECF400FAEF0E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2AC561C010584CE6004AE431</string>
+				<string>2A844BDB1058ECF400FAEF0E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -598,15 +595,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2AC5619B1058037A004AE431</string>
-		<string>2AC561C310584CE6004AE431</string>
-		<string>2AC561C410584CE6004AE431</string>
-		<string>2AC5618E1057FFA1004AE431</string>
-		<string>2AC561C510584CE6004AE431</string>
-		<string>2AC561C610584CE6004AE431</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>2A23E30F10511D4700E5FA48</string>
 		<string>2A4E829B1057E41900DA6150</string>
 		<string>/krassi/Camera/06/Everest/CoolCam.xcodeproj</string>
 	</array>
