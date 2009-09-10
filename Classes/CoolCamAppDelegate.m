@@ -11,18 +11,34 @@
 #import "ImageProcessor.h"
 
 
+
+
+
 @implementation CoolCamAppDelegate
 
 @synthesize window;
 @synthesize applicationState;
 
 
--(void) restoreApplicationState
+
+
+
+
+
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
-	restoreApplicationState;
+	// state restoration
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:kState];
+	applicationState = [[NSMutableString alloc] initWithContentsOfFile:filePath];
+	if( applicationState = nil )
+	{ // handle this situation
+	}
+	
 	
     // Create window
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
@@ -42,7 +58,7 @@
     [window makeKeyAndVisible];
 }
 
--(void) applicationWillTerminate: (UIApplication *) application
+-(void) applicationWillResignActive: (UIApplication *) application
 {
 	// saving state
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -50,6 +66,22 @@
 	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:kState];
 	[applicationState writeToFile: filePath atomically:YES];
 }
+
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+	int a = 1;
+	a = a + 1;
+}
+
+
+-(void) applicationWillTerminate: (UIApplication *) application
+{
+	int a = 1;
+	a = a + 1;
+	
+}
+
 
 
 - (void)dealloc
@@ -126,3 +158,4 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 }
 
 @end
+

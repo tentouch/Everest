@@ -2,19 +2,19 @@
 {
 	1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {870, 453}}";
-			sepNavSelRange = "{488, 0}";
-			sepNavVisRange = "{0, 1097}";
+			sepNavIntBoundsRect = "{{0, 0}, {1107, 434}}";
+			sepNavSelRange = "{901, 66}";
+			sepNavVisRange = "{164, 803}";
 			sepNavWindowFrame = "{{15, 142}, {815, 631}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{326, 726}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2791}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {911, 1288}}";
-			sepNavSelRange = "{1866, 0}";
-			sepNavVisRange = "{200, 872}";
-			sepNavWindowFrame = "{{205, 81}, {970, 667}}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{2222, 80}\";\n            s = 0;\n        },\n                {\n            r = \"{2450, 1186}\";\n            s = 0;\n        },\n                {\n            r = \"{3713, 115}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 3837}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 1582}}";
+			sepNavSelRange = "{2098, 0}";
+			sepNavVisRange = "{1293, 805}";
+			sepNavWindowFrame = "{{205, 105}, {970, 667}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* CoolCam */ = {
@@ -42,13 +42,41 @@
 			"*pixelData@3000",
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					545,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					625,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					560,
+					623,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -61,7 +89,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					543,
+					315,
 					20,
 					48,
 					43,
@@ -83,7 +111,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					200,
-					686,
+					749,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXFindDataSource_MessageID,
@@ -97,7 +125,7 @@
 					16,
 					200,
 					50,
-					612,
+					675,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXSymbolsDataSource_SymbolTypeIconID,
@@ -112,9 +140,9 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					648,
+					711,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -135,7 +163,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					678,
+					660,
 					60,
 					20,
 					48,
@@ -185,6 +213,8 @@
 			2A844C0A1058F48E00FAEF0E = 2A844C0A1058F48E00FAEF0E /* PBXTextBookmark */;
 			2ABF53081058F994004676A9 /* PBXTextBookmark */ = 2ABF53081058F994004676A9 /* PBXTextBookmark */;
 			2ABF53091058F994004676A9 /* PBXTextBookmark */ = 2ABF53091058F994004676A9 /* PBXTextBookmark */;
+			2ABF541010591EF6004676A9 /* PBXTextBookmark */ = 2ABF541010591EF6004676A9 /* PBXTextBookmark */;
+			2ABF5425105921B0004676A9 /* PBXTextBookmark */ = 2ABF5425105921B0004676A9 /* PBXTextBookmark */;
 			2AC561B310584CE6004AE431 = 2AC561B310584CE6004AE431 /* PBXTextBookmark */;
 			2AC561BA10584CE6004AE431 = 2AC561BA10584CE6004AE431 /* PBXTextBookmark */;
 			2ADF3E0B105645E0002C30F1 = 2ADF3E0B105645E0002C30F1 /* PBXTextBookmark */;
@@ -209,7 +239,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -284,7 +314,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 61";
 		rLen = 0;
-		rLoc = 2803;
+		rLoc = 3837;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 0;
@@ -422,16 +452,16 @@
 	};
 	2A4E818B1057B5D200DA6150 /* ImageProcessor.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {721, 370}}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 476}}";
 			sepNavSelRange = "{255, 0}";
 			sepNavVisRange = "{0, 261}";
 		};
 	};
 	2A4E818C1057B5D200DA6150 /* ImageProcessor.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {721, 2016}}";
-			sepNavSelRange = "{2654, 0}";
-			sepNavVisRange = "{2959, 543}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 1974}}";
+			sepNavSelRange = "{464, 0}";
+			sepNavVisRange = "{0, 894}";
 			sepNavWindowFrame = "{{15, 83}, {1233, 695}}";
 		};
 	};
@@ -460,7 +490,7 @@
 		fRef = 2A4E818C1057B5D200DA6150 /* ImageProcessor.m */;
 		name = "ImageProcessor.m: 14";
 		rLen = 0;
-		rLoc = 3634;
+		rLoc = 3631;
 		rType = 0;
 		vrLen = 259;
 		vrLoc = 0;
@@ -477,7 +507,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 85";
 		rLen = 1;
-		rLoc = 2270;
+		rLoc = 3302;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 1595;
@@ -507,7 +537,7 @@
 		fRef = 2A4E818C1057B5D200DA6150 /* ImageProcessor.m */;
 		name = "ImageProcessor.m: 97";
 		rLen = 0;
-		rLoc = 2654;
+		rLoc = 2651;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 2959;
@@ -517,7 +547,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 85";
 		rLen = 17;
-		rLoc = 2270;
+		rLoc = 3302;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 1797;
@@ -537,7 +567,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 85";
 		rLen = 17;
-		rLoc = 2270;
+		rLoc = 3302;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 1797;
@@ -557,7 +587,7 @@
 		fRef = 2A4E818C1057B5D200DA6150 /* ImageProcessor.m */;
 		name = "ImageProcessor.m: 97";
 		rLen = 0;
-		rLoc = 2654;
+		rLoc = 2651;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 2959;
@@ -567,7 +597,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 87";
 		rLen = 0;
-		rLoc = 2296;
+		rLoc = 3328;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 2022;
@@ -577,17 +607,24 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 102";
 		rLen = 0;
-		rLoc = 2604;
+		rLoc = 3636;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 200;
 	};
 	2ABF53001058F976004676A9 /* Constants.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {911, 539}}";
-			sepNavSelRange = "{160, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {878, 499}}";
+			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 242}";
 			sepNavWindowFrame = "{{15, 106}, {970, 667}}";
+		};
+	};
+	2ABF53011058F976004676A9 /* Constants.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {913, 476}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 188}";
 		};
 	};
 	2ABF53081058F994004676A9 /* PBXTextBookmark */ = {
@@ -606,6 +643,26 @@
 		rLoc = 901;
 		rType = 0;
 		vrLen = 832;
+		vrLoc = 164;
+	};
+	2ABF541010591EF6004676A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */;
+		name = "CoolCamAppDelegate.h: 26";
+		rLen = 66;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 164;
+	};
+	2ABF5425105921B0004676A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */;
+		name = "CoolCamAppDelegate.h: 26";
+		rLen = 66;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 803;
 		vrLoc = 164;
 	};
 	2AC561B310584CE6004AE431 /* PBXTextBookmark */ = {

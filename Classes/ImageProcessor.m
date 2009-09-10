@@ -73,9 +73,6 @@ CGContextRef CreateARGBBitmapContext (CGImageRef inImage)
 
 
 
-
-
-
 /*
 CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 {
