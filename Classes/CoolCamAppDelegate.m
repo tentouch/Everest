@@ -9,6 +9,7 @@
 #import "Constants.h"
 #import "CoolCamAppDelegate.h"
 #import "ImageProcessor.h"
+#import <stdlib.h>
 
 
 
@@ -18,13 +19,6 @@
 
 @synthesize window;
 @synthesize applicationState;
-
-
-
-
-
-
-
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application
@@ -109,6 +103,67 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 	[picker dismissModalViewControllerAnimated:YES];
 	imagePickerController.view.hidden = YES;
 	
+	
+	
+	CGImageRef imageRef = [image CGImage];
+    NSUInteger width = CGImageGetWidth(imageRef);
+    NSUInteger height = CGImageGetHeight(imageRef);
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    unsigned char *rawData = malloc(height * width * 4);
+    NSUInteger bytesPerPixel = 4;
+    NSUInteger bytesPerRow = bytesPerPixel * width;
+    NSUInteger bitsPerComponent = 8;
+    CGContextRef context = CGBitmapContextCreate(rawData, width, height,
+												 bitsPerComponent, bytesPerRow, colorSpace,
+												 kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);
+    CGColorSpaceRelease(colorSpace);
+	
+    CGContextDrawImage(context, CGRectMake(0, 0, width, height), imageRef);
+    CGContextRelease(context);	
+	
+	
+	srand(10);
+	
+	// aide Dani
+	
+	int byteIndex = 0;
+	int count = width * height;
+    for (int ii = 0 ; ii < count ; ++ii)
+    {
+		CGFloat red   = rawData[byteIndex];
+        CGFloat green = rawData[byteIndex + 1];
+        CGFloat blue  = rawData[byteIndex + 2];
+        CGFloat alpha = rawData[byteIndex + 3];
+		
+		rawData[byteIndex] = red + rand();
+		rawData[byteIndex + 1] = green + rand();
+		rawData[byteIndex + 2] = blue - rand();
+		rawData[byteIndex + 3] = rand();
+		
+		byteIndex += 4;
+	}
+
+	
+	CGContextRef context1 = CGBitmapContextCreate(rawData, width, height,
+												 bitsPerComponent, bytesPerRow, colorSpace,
+												 kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);
+	
+	CGImageRef newImage = CGBitmapContextCreateImage(context1);
+	
+	imageView.image = [UIImage imageWithCGImage:newImage];
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//CGImageRef cgImage = image.CGImage;
 	//ImageProcessor * imgproc = [[ImageProcessor alloc] init];
 	
@@ -119,12 +174,12 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 	
 	//imageView.image = [ UIImage imageWithCGImage:  [imgproc process: image.CGImage]  ];
 	
-	int width =image.size.width;
-	int height = image.size.height;
-	unsigned char* pixelData; 
-	pixelData = malloc(width * height);
+	//int width =image.size.width;
+	//int height = image.size.height;
+	//unsigned char* pixelData = getRGBAsFromImage( image ); 
+	//pixelData = malloc(width * height);
 	
-	
+	/*
 	CGContextRef context = CGBitmapContextCreate ( pixelData,  
 												  width,            
 												  height,            
@@ -140,7 +195,10 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 	CGImageRef newImageRef = CGBitmapContextCreateImage(context);
 	
 	imageView.image = [UIImage imageWithCGImage: newImageRef ];
-	
+	*/
+	 
+	 
+	 
 	//[imgproc release];
 	
 	
