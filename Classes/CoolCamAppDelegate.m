@@ -17,6 +17,9 @@
 @synthesize applicationState;
 
 
+-(void) restoreApplicationState
+
+
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
 	restoreApplicationState;
