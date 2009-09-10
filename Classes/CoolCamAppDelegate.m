@@ -6,6 +6,7 @@
 //  Copyright __MyCompanyName__ 2009. All rights reserved.
 //
 
+#import "Constants.h"
 #import "CoolCamAppDelegate.h"
 #import "ImageProcessor.h"
 
@@ -13,10 +14,13 @@
 @implementation CoolCamAppDelegate
 
 @synthesize window;
+@synthesize applicationState;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
+	restoreApplicationState;
+	
     // Create window
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
 	
@@ -34,6 +38,16 @@
 	
     [window makeKeyAndVisible];
 }
+
+-(void) applicationWillTerminate: (UIApplication *) application
+{
+	// saving state
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:kState];
+	[applicationState writeToFile: filePath atomically:YES];
+}
+
 
 - (void)dealloc
 {

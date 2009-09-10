@@ -16,6 +16,7 @@
 		2A4E8009105797D900DA6150 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4E8008105797D900DA6150 /* MainWindow.xib */; };
 		2A4E802F10579E1D00DA6150 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4E802E10579E1D00DA6150 /* MyView.xib */; };
 		2A4E818D1057B5D200DA6150 /* ImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E818C1057B5D200DA6150 /* ImageProcessor.m */; };
+		2ABF53021058F976004676A9 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF53011058F976004676A9 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		2A4E802E10579E1D00DA6150 /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 		2A4E818B1057B5D200DA6150 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
 		2A4E818C1057B5D200DA6150 /* ImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessor.m; sourceTree = "<group>"; };
+		2ABF53001058F976004676A9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2ABF53011058F976004676A9 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CoolCam_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolCam_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoolCam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoolCam-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +59,8 @@
 				1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */,
 				2A4E818B1057B5D200DA6150 /* ImageProcessor.h */,
 				2A4E818C1057B5D200DA6150 /* ImageProcessor.m */,
+				2ABF53001058F976004676A9 /* Constants.h */,
+				2ABF53011058F976004676A9 /* Constants.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CoolCamAppDelegate.m in Sources */,
 				2A4E818D1057B5D200DA6150 /* ImageProcessor.m in Sources */,
+				2ABF53021058F976004676A9 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
