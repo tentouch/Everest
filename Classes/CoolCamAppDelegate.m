@@ -128,7 +128,9 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 	[picker dismissModalViewControllerAnimated:YES];
 	imagePickerController.view.hidden = YES;
 	
-	
+	int a = 1;
+	    a = a + 1;
+	    
 	
 	CGImageRef imageRef = [image CGImage];
     NSUInteger width = CGImageGetWidth(imageRef);
@@ -151,6 +153,19 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 	
 	// aide Dani
 	
+	
+	int *transform(unsigned char *rawData, int count, int i)
+	{
+		int change 
+		
+		rawData[i] = rawData[i] ;
+		rawData[i+1] = rawData[i+1];
+		rawData[i+2] = rawData[i+2];
+		rawData[i+3] = rawData[i+3];
+	}
+	
+	
+	
 	int byteIndex = 0;
 	int count = width * height;
     for (int ii = 0 ; ii < count ; ++ii)
@@ -160,12 +175,15 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
         CGFloat blue  = rawData[byteIndex + 2];
         //CGFloat alpha = rawData[byteIndex + 3];
 		
-		rawData[byteIndex] = red + rand();
-		rawData[byteIndex + 1] = green + rand();
-		rawData[byteIndex + 2] = blue - rand();
-		rawData[byteIndex + 3] = rand();
+		rawData+byteIndex = transform( rawData+byteIndex );
 		
-		byteIndex += 4;
+		
+		//rawData[byteIndex] = red + transform(rawData,count,ii);
+		//rawData[byteIndex + 1] = green + transform(rawData,count,ii);
+		//rawData[byteIndex + 2] = blue - transform(rawData,count,ii);
+		//rawData[byteIndex + 3] = transform(rawData,count,ii);
+		
+		//byteIndex += 4;
 	}
 
 	

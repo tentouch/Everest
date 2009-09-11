@@ -13,8 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		2A23E2F910511CF400E5FA48 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A23E2F810511CF400E5FA48 /* icon.png */; };
-		2A4E8009105797D900DA6150 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4E8008105797D900DA6150 /* MainWindow.xib */; };
-		2A4E802F10579E1D00DA6150 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4E802E10579E1D00DA6150 /* MyView.xib */; };
 		2A4E818D1057B5D200DA6150 /* ImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E818C1057B5D200DA6150 /* ImageProcessor.m */; };
 		2ABF53021058F976004676A9 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF53011058F976004676A9 /* Constants.m */; };
 /* End PBXBuildFile section */
@@ -28,8 +26,6 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A23E2F810511CF400E5FA48 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		2A4E8008105797D900DA6150 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		2A4E802E10579E1D00DA6150 /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 		2A4E818B1057B5D200DA6150 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
 		2A4E818C1057B5D200DA6150 /* ImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessor.m; sourceTree = "<group>"; };
 		2ABF53001058F976004676A9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -99,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				8D1107310486CEB800E47090 /* CoolCam-Info.plist */,
-				2A4E8008105797D900DA6150 /* MainWindow.xib */,
-				2A4E802E10579E1D00DA6150 /* MyView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -158,8 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A23E2F910511CF400E5FA48 /* icon.png in Resources */,
-				2A4E8009105797D900DA6150 /* MainWindow.xib in Resources */,
-				2A4E802F10579E1D00DA6150 /* MyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
