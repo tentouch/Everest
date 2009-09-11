@@ -124,7 +124,7 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
  
 void transform(unsigned char *rawData, int count, int i)
 {
-	int change = 0; 
+	int change = 50; 
 	
 	rawData[i] = rawData[i] + change;
 	rawData[i+1] = rawData[i+1] + change;
@@ -173,14 +173,14 @@ void transform(unsigned char *rawData, int count, int i)
 	
 	int byteIndex = 0;
 	int count = width * height;
-    for (int ii = 0 ; ii < count ; ++ii)
+    for (int ii = 0 ; ii < count ; ii++)
     {
-		CGFloat red   = rawData[byteIndex];
-        CGFloat green = rawData[byteIndex + 1];
-        CGFloat blue  = rawData[byteIndex + 2];
+		//CGFloat red   = rawData[byteIndex];
+        //CGFloat green = rawData[byteIndex + 1];
+        //CGFloat blue  = rawData[byteIndex + 2];
         //CGFloat alpha = rawData[byteIndex + 3];
 		
-		transform( rawData + byteIndex, count , ii );
+		transform( rawData , count, byteIndex );
 		
 		
 		//rawData[byteIndex] = red + transform(rawData,count,ii);
@@ -188,7 +188,7 @@ void transform(unsigned char *rawData, int count, int i)
 		//rawData[byteIndex + 2] = blue - transform(rawData,count,ii);
 		//rawData[byteIndex + 3] = transform(rawData,count,ii);
 		
-		//byteIndex += 4;
+		byteIndex += 4;
 	}
 
 	
