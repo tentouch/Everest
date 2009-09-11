@@ -122,6 +122,19 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 }
 */
  
+void transform(unsigned char *rawData, int count, int i)
+{
+	int change = 0; 
+	
+	rawData[i] = rawData[i] + change;
+	rawData[i+1] = rawData[i+1] + change;
+	rawData[i+2] = rawData[i+2] + change;
+	rawData[i+3] = rawData[i+3] + change;
+
+}
+
+
+
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo
 {
 	// Dismiss the image selection, hide the picker and show the image view with the picked image
@@ -154,15 +167,7 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 	// aide Dani
 	
 	
-	int *transform(unsigned char *rawData, int count, int i)
-	{
-		int change 
-		
-		rawData[i] = rawData[i] ;
-		rawData[i+1] = rawData[i+1];
-		rawData[i+2] = rawData[i+2];
-		rawData[i+3] = rawData[i+3];
-	}
+
 	
 	
 	
@@ -175,7 +180,7 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
         CGFloat blue  = rawData[byteIndex + 2];
         //CGFloat alpha = rawData[byteIndex + 3];
 		
-		rawData+byteIndex = transform( rawData+byteIndex );
+		transform( rawData + byteIndex, count , ii );
 		
 		
 		//rawData[byteIndex] = red + transform(rawData,count,ii);
