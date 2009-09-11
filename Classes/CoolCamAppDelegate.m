@@ -21,6 +21,25 @@
 @synthesize applicationState;
 
 
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+	UINavigationItem *ipcNavBarTopItem;
+	
+	// add done button to right side of nav bar
+	UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
+																   style:UIBarButtonItemStylePlain 
+																  target:self 
+																  action:@selector(saveImages:)];
+	
+	UINavigationBar *bar = navigationController.navigationBar;
+	[bar setHidden:YES];
+	ipcNavBarTopItem = bar.topItem;
+	ipcNavBarTopItem.title = @"Pick Images";
+	ipcNavBarTopItem.rightBarButtonItem = doneButton;
+}
+
+
+
+
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
 	// state restoration
@@ -42,6 +61,11 @@
 	imagePickerController.delegate = self;
 	//imagePickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
 	imagePickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+	imagePickerController.allowsImageEditing = YES;
+	imagePickerController.toolbarHidden = YES;
+	
+	
+	
 	[window addSubview:imagePickerController.view];
 	
 	// Set up the image view and add it to the view but make it hidden
@@ -58,7 +82,8 @@
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
 	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:kState];
-	[applicationState writeToFile: filePath atomically:YES];
+	[applicationState writeToFile: filePath atomically:YES encoding: NSASCIIStringEncoding error: nil];
+	// instead of nil, maybe interested to see error object
 }
 
 
@@ -133,7 +158,7 @@ CGImageRef ManipulateImagePixelData(CGImageRef inImage)
 		CGFloat red   = rawData[byteIndex];
         CGFloat green = rawData[byteIndex + 1];
         CGFloat blue  = rawData[byteIndex + 2];
-        CGFloat alpha = rawData[byteIndex + 3];
+        //CGFloat alpha = rawData[byteIndex + 3];
 		
 		rawData[byteIndex] = red + rand();
 		rawData[byteIndex + 1] = green + rand();

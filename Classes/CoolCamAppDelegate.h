@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CoolCamAppDelegate : NSObject <UIApplicationDelegate> {
+@interface CoolCamAppDelegate : NSObject <UIApplicationDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate> {
     UIWindow *window;
 	UIImagePickerController* imagePickerController;
 	UIImageView* imageView;
@@ -26,5 +26,8 @@
 - (void)applicationWillResignActive:(UIApplication *)application;
 // use to restore application to state before interruption
 - (void)applicationDidBecomeActive:(UIApplication *)application;
+- (void)navigationController:(UINavigationController *)navigationController 
+	  willShowViewController:(UIViewController *)viewController
+					animated:(BOOL)animated;
 @end
 
