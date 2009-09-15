@@ -10,6 +10,7 @@
 #import "CoolCamAppDelegate.h"
 #import "ImageProcessor.h"
 #import <stdlib.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 
 
@@ -61,8 +62,13 @@
 	imagePickerController.delegate = self;
 	//imagePickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
 	imagePickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
-	imagePickerController.allowsImageEditing = YES;
+	// imagePickerController.mediaTypes = kUTTypeMovie;  // Requires 3GS
+	//imagePickerController.allowsImageEditing = YES;
 	imagePickerController.toolbarHidden = YES;
+	imagePickerController.showsCameraControls = NO;
+	imagePickerController.wantsFullScreenLayout = YES;
+	imagePickerController.cameraViewTransform = CGAffineTransformMakeRotation(90);
+	
 	
 	
 	

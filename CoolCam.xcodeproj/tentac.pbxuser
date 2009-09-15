@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 476}}";
-			sepNavSelRange = "{1321, 0}";
-			sepNavVisRange = "{3, 1325}";
+			sepNavIntBoundsRect = "{{0, 0}, {980, 502}}";
+			sepNavSelRange = "{552, 67}";
+			sepNavVisRange = "{0, 1328}";
 			sepNavWindowFrame = "{{15, 142}, {815, 631}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 3752}}";
-			sepNavSelRange = "{4912, 0}";
-			sepNavVisRange = "{3421, 1145}";
+			sepNavIntBoundsRect = "{{0, 0}, {980, 3766}}";
+			sepNavSelRange = "{2579, 27}";
+			sepNavVisRange = "{996, 1335}";
 			sepNavWindowFrame = "{{205, 105}, {970, 667}}";
 		};
 	};
@@ -25,7 +25,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 2A23E2A41051150500E5FA48 /* CoolCam */;
-		activeSDKPreference = iphoneos3.0;
+		activeSDKPreference = iphoneos3.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoolCam */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoolCam */,
@@ -84,7 +84,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					723,
-					241,
+					269.20849609375,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXErrorsWarningsDataSource_TypeID,
@@ -111,7 +111,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					791,
+					802,
 					20,
 					48,
 					43,
@@ -202,43 +202,49 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 274366623;
-			PBXWorkspaceStateSaveDate = 274366623;
+			PBXPerProjectTemplateStateSaveDate = 274717908;
+			PBXWorkspaceStateSaveDate = 274717908;
 		};
 		perUserProjectItems = {
-			2A23E30310511D4700E5FA48 = 2A23E30310511D4700E5FA48 /* PlistBookmark */;
-			2A23E30410511D4700E5FA48 = 2A23E30410511D4700E5FA48 /* PBXTextBookmark */;
-			2A23E30510511D4700E5FA48 = 2A23E30510511D4700E5FA48 /* PBXTextBookmark */;
-			2A23E30810511D4700E5FA48 = 2A23E30810511D4700E5FA48 /* PBXTextBookmark */;
-			2A23E30D10511D4700E5FA48 = 2A23E30D10511D4700E5FA48 /* PBXBookmark */;
-			2A4E803B1057A2AA00DA6150 = 2A4E803B1057A2AA00DA6150 /* PlistBookmark */;
-			2A4E80591057A76400DA6150 = 2A4E80591057A76400DA6150 /* PBXTextBookmark */;
-			2A4E805B1057A76400DA6150 = 2A4E805B1057A76400DA6150 /* PBXTextBookmark */;
-			2A4E80641057A76400DA6150 = 2A4E80641057A76400DA6150 /* PBXTextBookmark */;
-			2A4E81741057B53D00DA6150 = 2A4E81741057B53D00DA6150 /* PBXTextBookmark */;
-			2A4E81751057B53D00DA6150 = 2A4E81751057B53D00DA6150 /* PBXTextBookmark */;
-			2A4E817B1057B53D00DA6150 = 2A4E817B1057B53D00DA6150 /* PBXTextBookmark */;
-			2A4E817D1057B53D00DA6150 = 2A4E817D1057B53D00DA6150 /* PBXTextBookmark */;
-			2A4E81AE1057BEC500DA6150 = 2A4E81AE1057BEC500DA6150 /* PBXTextBookmark */;
-			2A4E81B41057BEC500DA6150 = 2A4E81B41057BEC500DA6150 /* PBXTextBookmark */;
-			2ABF545B105934E1004676A9 = 2ABF545B105934E1004676A9 /* PBXTextBookmark */;
-			2ABF545E105934E1004676A9 = 2ABF545E105934E1004676A9 /* PBXTextBookmark */;
-			2ABF545F105934E1004676A9 = 2ABF545F105934E1004676A9 /* PBXTextBookmark */;
-			2ABF5461105934E1004676A9 = 2ABF5461105934E1004676A9 /* PBXTextBookmark */;
-			2ABF5467105934E1004676A9 = 2ABF5467105934E1004676A9 /* PBXTextBookmark */;
-			2ABF5471105934E1004676A9 = 2ABF5471105934E1004676A9 /* PBXTextBookmark */;
-			2ABF5495105934E1004676A9 = 2ABF5495105934E1004676A9 /* PBXTextBookmark */;
-			2ABF5497105934E1004676A9 = 2ABF5497105934E1004676A9 /* PBXTextBookmark */;
-			2ABF54F010594E9E004676A9 = 2ABF54F010594E9E004676A9 /* PBXTextBookmark */;
-			2ABF54F210594E9E004676A9 = 2ABF54F210594E9E004676A9 /* PBXTextBookmark */;
-			2ABF561E105A49BA004676A9 = 2ABF561E105A49BA004676A9 /* PBXTextBookmark */;
-			2ABF561F105A49BA004676A9 = 2ABF561F105A49BA004676A9 /* PBXTextBookmark */;
-			2ABF5678105A7CF3004676A9 = 2ABF5678105A7CF3004676A9 /* PBXTextBookmark */;
-			2AC561B310584CE6004AE431 = 2AC561B310584CE6004AE431 /* PBXTextBookmark */;
-			2AC561BA10584CE6004AE431 = 2AC561BA10584CE6004AE431 /* PBXTextBookmark */;
-			2ADF3E0B105645E0002C30F1 = 2ADF3E0B105645E0002C30F1 /* PBXTextBookmark */;
-			2ADF3E0C105645E0002C30F1 = 2ADF3E0C105645E0002C30F1 /* PBXBookmark */;
-			2ADF3E10105645E0002C30F1 = 2ADF3E10105645E0002C30F1 /* PBXTextBookmark */;
+			2A02FDD8105E7A35003D93EC /* PBXTextBookmark */ = 2A02FDD8105E7A35003D93EC /* PBXTextBookmark */;
+			2A23E30310511D4700E5FA48 /* PlistBookmark */ = 2A23E30310511D4700E5FA48 /* PlistBookmark */;
+			2A23E30410511D4700E5FA48 /* PBXTextBookmark */ = 2A23E30410511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30510511D4700E5FA48 /* PBXTextBookmark */ = 2A23E30510511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30810511D4700E5FA48 /* PBXTextBookmark */ = 2A23E30810511D4700E5FA48 /* PBXTextBookmark */;
+			2A23E30D10511D4700E5FA48 /* PBXBookmark */ = 2A23E30D10511D4700E5FA48 /* PBXBookmark */;
+			2A4E80591057A76400DA6150 /* PBXTextBookmark */ = 2A4E80591057A76400DA6150 /* PBXTextBookmark */;
+			2A4E805B1057A76400DA6150 /* PBXTextBookmark */ = 2A4E805B1057A76400DA6150 /* PBXTextBookmark */;
+			2A4E80641057A76400DA6150 /* PBXTextBookmark */ = 2A4E80641057A76400DA6150 /* PBXTextBookmark */;
+			2A4E81741057B53D00DA6150 /* PBXTextBookmark */ = 2A4E81741057B53D00DA6150 /* PBXTextBookmark */;
+			2A4E81751057B53D00DA6150 /* PBXTextBookmark */ = 2A4E81751057B53D00DA6150 /* PBXTextBookmark */;
+			2A4E817B1057B53D00DA6150 /* PBXTextBookmark */ = 2A4E817B1057B53D00DA6150 /* PBXTextBookmark */;
+			2A4E817D1057B53D00DA6150 /* PBXTextBookmark */ = 2A4E817D1057B53D00DA6150 /* PBXTextBookmark */;
+			2A4E81AE1057BEC500DA6150 /* PBXTextBookmark */ = 2A4E81AE1057BEC500DA6150 /* PBXTextBookmark */;
+			2A4E81B41057BEC500DA6150 /* PBXTextBookmark */ = 2A4E81B41057BEC500DA6150 /* PBXTextBookmark */;
+			2A9439A5105FDCCC00315AEE /* PlistBookmark */ = 2A9439A5105FDCCC00315AEE /* PlistBookmark */;
+			2A9439A6105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439A6105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439A8105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439A8105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439AA105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439AA105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439AC105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439AC105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439B4105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439B4105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439B6105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439B6105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439B8105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439B8105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439BE105FDCCC00315AEE /* PBXTextBookmark */ = 2A9439BE105FDCCC00315AEE /* PBXTextBookmark */;
+			2A9439CA105FDCFF00315AEE /* PBXTextBookmark */ = 2A9439CA105FDCFF00315AEE /* PBXTextBookmark */;
+			2ABF545B105934E1004676A9 /* PBXTextBookmark */ = 2ABF545B105934E1004676A9 /* PBXTextBookmark */;
+			2ABF545E105934E1004676A9 /* PBXTextBookmark */ = 2ABF545E105934E1004676A9 /* PBXTextBookmark */;
+			2ABF545F105934E1004676A9 /* PBXTextBookmark */ = 2ABF545F105934E1004676A9 /* PBXTextBookmark */;
+			2ABF5461105934E1004676A9 /* PBXTextBookmark */ = 2ABF5461105934E1004676A9 /* PBXTextBookmark */;
+			2ABF5467105934E1004676A9 /* PBXTextBookmark */ = 2ABF5467105934E1004676A9 /* PBXTextBookmark */;
+			2ABF5471105934E1004676A9 /* PBXTextBookmark */ = 2ABF5471105934E1004676A9 /* PBXTextBookmark */;
+			2ABF5495105934E1004676A9 /* PBXTextBookmark */ = 2ABF5495105934E1004676A9 /* PBXTextBookmark */;
+			2ABF5497105934E1004676A9 /* PBXTextBookmark */ = 2ABF5497105934E1004676A9 /* PBXTextBookmark */;
+			2ABF54F010594E9E004676A9 /* PBXTextBookmark */ = 2ABF54F010594E9E004676A9 /* PBXTextBookmark */;
+			2AC561B310584CE6004AE431 /* PBXTextBookmark */ = 2AC561B310584CE6004AE431 /* PBXTextBookmark */;
+			2AC561BA10584CE6004AE431 /* PBXTextBookmark */ = 2AC561BA10584CE6004AE431 /* PBXTextBookmark */;
+			2ADF3E0B105645E0002C30F1 /* PBXTextBookmark */ = 2ADF3E0B105645E0002C30F1 /* PBXTextBookmark */;
+			2ADF3E0C105645E0002C30F1 /* PBXBookmark */ = 2ADF3E0C105645E0002C30F1 /* PBXBookmark */;
+			2ADF3E10105645E0002C30F1 /* PBXTextBookmark */ = 2ADF3E10105645E0002C30F1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2A23E2AA1051150B00E5FA48 /* Source Control */;
 		userBuildSettings = {
@@ -251,6 +257,16 @@
 			sepNavVisRange = "{0, 374}";
 		};
 	};
+	2A02FDD8105E7A35003D93EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A4E818B1057B5D200DA6150 /* ImageProcessor.h */;
+		name = "ImageProcessor.h: 17";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 0;
+	};
 	2A23E2A41051150500E5FA48 /* CoolCam */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -258,7 +274,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -333,7 +349,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
 		name = "CoolCamAppDelegate.m: 61";
 		rLen = 0;
-		rLoc = 6394;
+		rLoc = 6689;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 0;
@@ -351,18 +367,6 @@
 	2A23E30D10511D4700E5FA48 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 2A23E2F810511CF400E5FA48 /* icon.png */;
-	};
-	2A4E803B1057A2AA00DA6150 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* CoolCam-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			NSMainNibFile,
-		);
-		name = "/krassi/Camera/06/Everest/CoolCam-Info.plist";
-		rLen = 0;
-		rLoc = 2147483647;
 	};
 	2A4E80591057A76400DA6150 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -471,7 +475,7 @@
 	};
 	2A4E818B1057B5D200DA6150 /* ImageProcessor.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {895, 452}}";
+			sepNavIntBoundsRect = "{{0, 0}, {865, 480}}";
 			sepNavSelRange = "{255, 0}";
 			sepNavVisRange = "{0, 261}";
 		};
@@ -503,6 +507,150 @@
 		rType = 0;
 		vrLen = 259;
 		vrLoc = 0;
+	};
+	2A9439A5105FDCCC00315AEE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoolCam-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = "/krassi/Camera/06/Everest/CoolCam-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2A9439A6105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A9439A7105FDCCC00315AEE /* UTCoreTypes.h */;
+		name = "UTCoreTypes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 1783;
+	};
+	2A9439A7105FDCCC00315AEE /* UTCoreTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UTCoreTypes.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTCoreTypes.h;
+		sourceTree = "<absolute>";
+	};
+	2A9439A8105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A9439A9105FDCCC00315AEE /* UTType.h */;
+		name = "UTType.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 12829;
+	};
+	2A9439A9105FDCCC00315AEE /* UTType.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UTType.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTType.h;
+		sourceTree = "<absolute>";
+	};
+	2A9439AA105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A9439AB105FDCCC00315AEE /* MobileCoreServices.h */;
+		name = "MobileCoreServices.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	2A9439AB105FDCCC00315AEE /* MobileCoreServices.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MobileCoreServices.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h;
+		sourceTree = "<absolute>";
+	};
+	2A9439AC105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */;
+		name = "CoolCamAppDelegate.h: 20";
+		rLen = 67;
+		rLoc = 552;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 0;
+	};
+	2A9439B4105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A9439B5105FDCCC00315AEE /* UTCoreTypes.h */;
+		name = "UTCoreTypes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 1783;
+	};
+	2A9439B5105FDCCC00315AEE /* UTCoreTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UTCoreTypes.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTCoreTypes.h;
+		sourceTree = "<absolute>";
+	};
+	2A9439B6105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A9439B7105FDCCC00315AEE /* UTType.h */;
+		name = "UTType.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 12829;
+	};
+	2A9439B7105FDCCC00315AEE /* UTType.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UTType.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTType.h;
+		sourceTree = "<absolute>";
+	};
+	2A9439B8105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A9439B9105FDCCC00315AEE /* MobileCoreServices.h */;
+		name = "MobileCoreServices.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	2A9439B9105FDCCC00315AEE /* MobileCoreServices.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MobileCoreServices.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h;
+		sourceTree = "<absolute>";
+	};
+	2A9439BE105FDCCC00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
+		name = "CoolCamAppDelegate.m: 82";
+		rLen = 27;
+		rLoc = 2579;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 1528;
+	};
+	2A9439CA105FDCFF00315AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
+		name = "CoolCamAppDelegate.m: 82";
+		rLen = 27;
+		rLoc = 2579;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 996;
 	};
 	2ABF53001058F976004676A9 /* Constants.h */ = {
 		uiCtxt = {
@@ -637,53 +785,6 @@
 		vrLen = 882;
 		vrLoc = 0;
 	};
-	2ABF54F210594E9E004676A9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2A4E818B1057B5D200DA6150 /* ImageProcessor.h */;
-		name = "ImageProcessor.h: 17";
-		rLen = 0;
-		rLoc = 255;
-		rType = 0;
-		vrLen = 261;
-		vrLoc = 0;
-	};
-	2ABF55B7105A398C004676A9 /* CoolCamAppDelegate.m */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.objc;
-		name = CoolCamAppDelegate.m;
-		path = /krassi/Camera/06/Everest/Classes/CoolCamAppDelegate.m;
-		sourceTree = "<absolute>";
-	};
-	2ABF561E105A49BA004676A9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* CoolCamAppDelegate.h */;
-		name = "CoolCamAppDelegate.h: 31";
-		rLen = 0;
-		rLoc = 1321;
-		rType = 0;
-		vrLen = 1325;
-		vrLoc = 3;
-	};
-	2ABF561F105A49BA004676A9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2ABF55B7105A398C004676A9 /* CoolCamAppDelegate.m */;
-		name = "CoolCamAppDelegate.m: 67";
-		rLen = 0;
-		rLoc = 2786;
-		rType = 0;
-		vrLen = 777;
-		vrLoc = 28;
-	};
-	2ABF5678105A7CF3004676A9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* CoolCamAppDelegate.m */;
-		name = "CoolCamAppDelegate.m: 134";
-		rLen = 0;
-		rLoc = 3421;
-		rType = 0;
-		vrLen = 955;
-		vrLoc = 3103;
-	};
 	2AC561B310584CE6004AE431 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2AC561B410584CE6004AE431 /* CGGeometry.h */;
@@ -747,6 +848,11 @@
 			sepNavIntBoundsRect = "{{0, 0}, {896, 426}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 183}";
+		};
+	};
+	8D1107310486CEB800E47090 /* CoolCam-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 106}, {970, 667}}";
 		};
 	};
 }
